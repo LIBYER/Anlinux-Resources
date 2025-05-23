@@ -76,7 +76,7 @@ EOM
 
 echo "Setting up pulseaudio so you can have music in distro."
 
-pkg install pulseaudio -y
+# pkg install pulseaudio -y
 
 if grep -q "anonymous" ~/../usr/etc/pulse/default.pa;then
     echo "module already present"
